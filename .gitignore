@@ -1,0 +1,53 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore the virtual environment
+venv/
+env/
+*.env
+*.wav
+
+# Ignore database files
+db.sqlite3
+
+# Ignore media files (uploads)
+media/
+
+# Ignore static files (collected using `collectstatic`)
+staticfiles/
+
+# Ignore Node.js modules
+node_modules/
+
+# Ignore compiled JavaScript files and source maps
+*.js
+*.js.map
+
+# Ignore compiled CSS files
+*.css
+
+# Ignore log files
+*.log
+
+# Ignore environment configuration files
+.env.local
+.env.development
+.env.production
+
+# Ignore any sensitive or secret files
+*.secret
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore editor and IDE files
+.idea/
+.vscode/
+
+# Ignore pipenv virtual environment files
+Pipfile.lock
+Pipfile
+
+# Ignore npm debug logs
+npm-debug.log*
