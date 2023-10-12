@@ -20,13 +20,6 @@ staticfiles/
 # Ignore Node.js modules
 node_modules/
 
-# Ignore compiled JavaScript files and source maps
-*.js
-*.js.map
-
-# Ignore compiled CSS files
-*.css
-
 # Ignore log files
 *.log
 
